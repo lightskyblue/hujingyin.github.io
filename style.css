@@ -12,7 +12,10 @@ body {
 }
 
 img {
-	max-width: 100%;
+	position:relative;
+	width:100%;
+	height:460px;
+	clear:both;
 }
 
 .Header {
@@ -27,6 +30,35 @@ img {
 }
 
 
+
+@media screen and (min-width: 50rem) {
+	body {
+		border-left: 4px solid #f9f9f9;
+		border-right: 4px solid #f9f9f9;
+		padding: 1rem 2rem;
+	}
+
+	.IntroWrapper {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+	}
+
+	
+	.IntroText {
+		display: table-cell;
+		width: 50%;
+		vertical-align: middle;
+		text-align: center;
+	}
+
+	.IntroText {
+		padding: .5rem;
+		font-size: 2.5rem;
+		text-align: left;
+		position: relative;
+	}
+
 .MoneyShot {
    position:relative;
 	width:100%;
@@ -39,19 +71,94 @@ img {
 }
 
 .LogoWrapper {
-	display: block;
+	position:relative;
+	width:100%;
+	height:460px;
+	clear:both;
 }
 
-.icon{
-	margin: 30px 0px;
+.MoneyShot.icon{
+	position:relative;
+	width:214px;
+	padding:0px 20px;
+	margin:0px 5px;
+	display:inline-block;
+	vertical-align:top;
 }
 
-.mouse{
-	margin: 30px 0px;
+.MoneyShot.icon p{
+	font-family: SimHei;
+	color:#FFF;
+	font-size:13px;
+	font-weight:normal;
+        letter-spacing: 0.07em;
+	height:65px;
 }
-.white{
-	margin: 30px 0px;
+
+.MoneyShot.block h2.more{
+	font-family: SimHei;
+	color:#FFF;
+	font-size:10px;
+	background-color:#f067b3;
+	padding:10px 20px;
+        letter-spacing: 0.07em;
+	display:inline-block;
 }
+.MoneyShot.mouse{
+	position:relative;
+	width:214px;
+	padding:0px 20px;
+	margin:0px 5px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.MoneyShot.mouse p {
+	font-family: SimHei;
+	color:#FFF;
+	font-size:13px;
+	font-weight:normal;
+        letter-spacing: 0.07em;
+	height:65px;
+}
+.MoneyShot.mouse  h2.more{
+        font-family: SimHei;
+	color:#FFF;
+	font-size:10px;
+	background-color:#f067b3;
+	padding:10px 20px;
+        letter-spacing: 0.07em;
+	display:inline-block;
+}
+
+.MoneyShot.white{
+	position:relative;
+	width:214px;
+	padding:0px 20px;
+	margin:0px 5px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.MoneyShot.white p{
+	font-family: SimHei;
+	color:#FFF;
+	font-size:13px;
+	font-weight:normal;
+        letter-spacing: 0.07em;
+	height:65px;
+}
+.MoneyShot.white h2.more {
+	font-family: SimHei;
+	color:#FFF;
+	font-size:10px;
+	background-color:#f067b3;
+	padding:10px 20px;
+        letter-spacing: 0.07em;
+	display:inline-block;
+}
+
+
 
 .ImageCaption {
 	font-size: .75rem;
@@ -77,35 +184,8 @@ img {
 	color: #eee;
 }
 
-@media screen and (min-width: 50rem) {
-	body {
-		border-left: 4px solid #f9f9f9;
-		border-right: 4px solid #f9f9f9;
-		padding: 1rem 2rem;
-	}
 
-	.IntroWrapper {
-		display: table;
-		table-layout: fixed;
-		width: 100%;
-	}
-
-	.MoneyShot,
-	.IntroText {
-		display: table-cell;
-		width: 50%;
-		vertical-align: middle;
-		text-align: center;
-	}
-
-	.IntroText {
-		padding: .5rem;
-		font-size: 2.5rem;
-		text-align: left;
-		position: relative;
-	}
-
-	.Ingredients {
+.Ingredients {
 		
     font-size: .9rem;
     float: right;
@@ -117,7 +197,7 @@ img {
 }
 	
 
-	.Ingredients h3 {
-		margin: 0;
+.Ingredients h3 {
+     margin: 0;
 	
 }
