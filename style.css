@@ -59,16 +59,6 @@ img {
 		position: relative;
 	}
 
-.MoneyShot {
-   position:relative;
-	width:100%;
-	background-color:#272727;
-	font-size:0px;
-	padding:30px 0px;
-	margin-bottom:50px;
-	text-align:center;
-	clear:both;
-}
 
 .LogoWrapper {
 	position:relative;
@@ -77,7 +67,25 @@ img {
 	clear:both;
 }
 
-.MoneyShot.icon{
+.new-product {
+	position:relative;
+	width:100%;
+	background-color:#272727;
+	font-size:0px;
+	padding:30px 0px;
+	margin-bottom:50px;
+	text-align:center;
+	clear:both;
+}
+.new-product h1{
+	font-family: SimHei;
+	color:#ed008c;
+	font-size:22px;
+	font-weight:bold;
+	letter-spacing:0.1em;
+	margin-bottom:30px;
+}
+.new-product .block{
 	position:relative;
 	width:214px;
 	padding:0px 20px;
@@ -85,79 +93,35 @@ img {
 	display:inline-block;
 	vertical-align:top;
 }
-
-.MoneyShot.icon p{
+.new-product .block img{
+	margin:30px 0px;
+}
+.new-product .block img.icon{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0px;
+}
+.new-product .block p{
 	font-family: SimHei;
 	color:#FFF;
 	font-size:13px;
 	font-weight:normal;
-        letter-spacing: 0.07em;
+    letter-spacing: 0.07em;
 	height:65px;
 }
-
-.MoneyShot.block h2.more{
+.new-product .block p small{
+	display:block;
+}
+.new-product .block h2.more{
 	font-family: SimHei;
 	color:#FFF;
 	font-size:10px;
 	background-color:#f067b3;
 	padding:10px 20px;
-        letter-spacing: 0.07em;
+    letter-spacing: 0.07em;
 	display:inline-block;
 }
-.MoneyShot.mouse{
-	position:relative;
-	width:214px;
-	padding:0px 20px;
-	margin:0px 5px;
-	display:inline-block;
-	vertical-align:top;
-}
-
-.MoneyShot.mouse p {
-	font-family: SimHei;
-	color:#FFF;
-	font-size:13px;
-	font-weight:normal;
-        letter-spacing: 0.07em;
-	height:65px;
-}
-.MoneyShot.mouse  h2.more{
-        font-family: SimHei;
-	color:#FFF;
-	font-size:10px;
-	background-color:#f067b3;
-	padding:10px 20px;
-        letter-spacing: 0.07em;
-	display:inline-block;
-}
-
-.MoneyShot.white{
-	position:relative;
-	width:214px;
-	padding:0px 20px;
-	margin:0px 5px;
-	display:inline-block;
-	vertical-align:top;
-}
-
-.MoneyShot.white p{
-	font-family: SimHei;
-	color:#FFF;
-	font-size:13px;
-	font-weight:normal;
-        letter-spacing: 0.07em;
-	height:65px;
-}
-.MoneyShot.white h2.more {
-	font-family: SimHei;
-	color:#FFF;
-	font-size:10px;
-	background-color:#f067b3;
-	padding:10px 20px;
-        letter-spacing: 0.07em;
-	display:inline-block;
-}
-
 
 
 .ImageCaption {
